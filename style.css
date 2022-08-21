@@ -23,7 +23,7 @@ h5{
 
 
 .half-width{
-    width: 40%;
+    width: 37%;
 
 float: left;
 margin-left: 5%;
@@ -78,6 +78,8 @@ text-align: justify;
 
 background-image: url("images/exp-bg.png");
 background-repeat: no-repeat;
+background-position: left;
+height: 500px;
 
 
 
@@ -85,4 +87,34 @@ background-repeat: no-repeat;
 
 
 
+}
+
+
+.single-experiance{
+box-shadow: 10px 10px 40px gray;
+
+border-radius: 5px;
+
+height: 80%;
+
+
+
+}
+
+#full-strack{
+
+    border-left: 7px solid ;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+
+#baby-web{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+p{
+    text-align: center;
+    padding: 20px;
 }
